@@ -3,8 +3,9 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#350515; /*changes color of the whole text*/
 	margin-top: 0;
+    background: #07404F;
 }
 #wrapper{
 	width:960px;
@@ -14,25 +15,36 @@ body{
 	-webkit-box-shadow: 0px 0px 5px #ececec;
 	-moz-box-shadow:    0px 0px 5px #ececec;
 	box-shadow:         0px 0px 5px #ececec;
+    background-color: #54B4CE;
 
+}
+
+img{
+    float:right;
+    box-shadow: 3px 3px 3px #7C7C7C;
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #07404F; /*changes color of border under project name*/
 }
 h1{
 	margin-top: 0;
 	padding-top: 10px;
+    color: #07404F;
+    font-family: 'Elsie Swash Caps', cursive;
+    font-size: 350%;
 }
 h2{
 	margin-top: 20px;
+    color: #07404F;
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f9;  /*changes color of the background of the table*/
+	background: #FFFFFF;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
+    color: #07404F;
 }
 tr{
 	display: table-row;
@@ -46,8 +58,8 @@ th{
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	color: #ececec;  /*changes color of table hd text*/
+	background: #07404F; /*changes color of table hd background*/
 }
 th:first-child{
 	/*border-right: 1px solid #6a7680;*/
